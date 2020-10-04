@@ -59,10 +59,10 @@ int main(int argc, char **argv)
     
     cv::line(im,image_points[0], nose_end_point2D[0], cv::Scalar(255,0,0), 2);
     
-    cout << "Rotation Vector " << endl << rotation_vector << endl;
-    cout << "Translation Vector" << endl << translation_vector << endl;
+    cout << "Rotation Vector " << endl << rotation_vector ;
+    cout <<endl<< "Translation Vector" << endl << translation_vector;
     
-    cout <<  nose_end_point2D << endl;
+    cout <<endl<<  nose_end_point2D << endl;
     
     // hacktober
     cout << "sharangdhar hacktober fest" << endl;
